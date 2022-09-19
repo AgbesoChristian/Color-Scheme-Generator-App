@@ -1,4 +1,5 @@
 # Colour Scheme Generator App
+<img src="./Populated Desktop View.png">
 
 ## Description
 The Colour Scheme Generator App takes in a seed color and generates the Hex Code of different relatable colors based on the selected seed color and the scheme mode. You can also switch between Color Scheme modes like Monochrome, Triad, Complementary etc.
