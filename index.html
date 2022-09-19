@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+    <title>Color Scheme Generator App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="main flex">
+            <input id="color-picker" type="color" value="#2a32ac">
+            <select id="select-menu" name="color-scheme-mode">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button type="button" id="Scheme-generator-btn">Get Color Scheme</button>
+        </section>
+
+
+        <section class="color-display-wrapper">
+            <div class="color-schemes">This is</div>
+            <div class="color-schemes">Where</div>
+            <div class="color-schemes">The</div>
+            <div class="color-schemes">Magic</div>
+            <div class="color-schemes">Happens</div>
+        </section>
+        <footer>Highlight to copy hex code</footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>   
