@@ -5,6 +5,7 @@
 The Colour Scheme Generator App takes in a seed color and generates the Hex Code of different relatable colors based on the selected seed color and the scheme mode. You can also switch between Color Scheme modes like Monochrome, Triad, Complementary etc.
 
 This App was built with JS /HTML / CSS.
+
 Live Server/Demo: https://agbesochristian.github.io/Color-Scheme-Generator-App/
 
 ## Usefulness of App
